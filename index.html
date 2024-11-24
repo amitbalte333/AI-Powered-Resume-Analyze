@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Resume Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI-Powered Resume Analyzer</h1>
+        <form id="resumeForm">
+            <label for="resumeUpload">Upload your resume:</label>
+            <input type="file" id="resumeUpload" accept=".pdf,.docx" required>
+            <button type="submit">Analyze Resume</button>
+        </form>
+        <div id="results" aria-live="polite"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
